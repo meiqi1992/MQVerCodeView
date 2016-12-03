@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD7DB361DF172D700B875E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7DB351DF172D700B875E9 /* main.m */; };
+		2CD7DB391DF172D700B875E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7DB381DF172D700B875E9 /* AppDelegate.m */; };
+		2CD7DB3C1DF172D700B875E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7DB3B1DF172D700B875E9 /* ViewController.m */; };
+		2CD7DB3F1DF172D700B875E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD7DB3D1DF172D700B875E9 /* Main.storyboard */; };
+		2CD7DB411DF172D700B875E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD7DB401DF172D700B875E9 /* Assets.xcassets */; };
+		2CD7DB441DF172D700B875E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD7DB421DF172D700B875E9 /* LaunchScreen.storyboard */; };
+		2CD7DB4F1DF172D700B875E9 /* MQVerCodeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7DB4E1DF172D700B875E9 /* MQVerCodeViewTests.m */; };
+		2CD7DB5A1DF172D700B875E9 /* MQVerCodeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7DB591DF172D700B875E9 /* MQVerCodeViewUITests.m */; };
+		2CD7DB6C1DF1730400B875E9 /* MQVerCodeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7DB6B1DF1730400B875E9 /* MQVerCodeImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD7DB4B1DF172D700B875E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD7DB291DF172D700B875E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD7DB301DF172D700B875E9;
+			remoteInfo = MQVerCodeView;
+		};
+		2CD7DB561DF172D700B875E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD7DB291DF172D700B875E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD7DB301DF172D700B875E9;
+			remoteInfo = MQVerCodeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD7DB311DF172D700B875E9 /* MQVerCodeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQVerCodeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD7DB351DF172D700B875E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CD7DB371DF172D700B875E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CD7DB381DF172D700B875E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CD7DB3A1DF172D700B875E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CD7DB3B1DF172D700B875E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CD7DB3E1DF172D700B875E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CD7DB401DF172D700B875E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CD7DB431DF172D700B875E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CD7DB451DF172D700B875E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD7DB4A1DF172D700B875E9 /* MQVerCodeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQVerCodeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD7DB4E1DF172D700B875E9 /* MQVerCodeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQVerCodeViewTests.m; sourceTree = "<group>"; };
+		2CD7DB501DF172D700B875E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD7DB551DF172D700B875E9 /* MQVerCodeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQVerCodeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD7DB591DF172D700B875E9 /* MQVerCodeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQVerCodeViewUITests.m; sourceTree = "<group>"; };
+		2CD7DB5B1DF172D700B875E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD7DB6A1DF1730400B875E9 /* MQVerCodeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQVerCodeImageView.h; sourceTree = "<group>"; };
+		2CD7DB6B1DF1730400B875E9 /* MQVerCodeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQVerCodeImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD7DB2E1DF172D700B875E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD7DB471DF172D700B875E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD7DB521DF172D700B875E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD7DB281DF172D700B875E9 = {
+			isa = PBXGroup;
+			children = (
+				2CD7DB331DF172D700B875E9 /* MQVerCodeView */,
+				2CD7DB4D1DF172D700B875E9 /* MQVerCodeViewTests */,
+				2CD7DB581DF172D700B875E9 /* MQVerCodeViewUITests */,
+				2CD7DB321DF172D700B875E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD7DB321DF172D700B875E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7DB311DF172D700B875E9 /* MQVerCodeView.app */,
+				2CD7DB4A1DF172D700B875E9 /* MQVerCodeViewTests.xctest */,
+				2CD7DB551DF172D700B875E9 /* MQVerCodeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD7DB331DF172D700B875E9 /* MQVerCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7DB6A1DF1730400B875E9 /* MQVerCodeImageView.h */,
+				2CD7DB6B1DF1730400B875E9 /* MQVerCodeImageView.m */,
+				2CD7DB371DF172D700B875E9 /* AppDelegate.h */,
+				2CD7DB381DF172D700B875E9 /* AppDelegate.m */,
+				2CD7DB3A1DF172D700B875E9 /* ViewController.h */,
+				2CD7DB3B1DF172D700B875E9 /* ViewController.m */,
+				2CD7DB3D1DF172D700B875E9 /* Main.storyboard */,
+				2CD7DB401DF172D700B875E9 /* Assets.xcassets */,
+				2CD7DB421DF172D700B875E9 /* LaunchScreen.storyboard */,
+				2CD7DB451DF172D700B875E9 /* Info.plist */,
+				2CD7DB341DF172D700B875E9 /* Supporting Files */,
+			);
+			path = MQVerCodeView;
+			sourceTree = "<group>";
+		};
+		2CD7DB341DF172D700B875E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7DB351DF172D700B875E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CD7DB4D1DF172D700B875E9 /* MQVerCodeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7DB4E1DF172D700B875E9 /* MQVerCodeViewTests.m */,
+				2CD7DB501DF172D700B875E9 /* Info.plist */,
+			);
+			path = MQVerCodeViewTests;
+			sourceTree = "<group>";
+		};
+		2CD7DB581DF172D700B875E9 /* MQVerCodeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7DB591DF172D700B875E9 /* MQVerCodeViewUITests.m */,
+				2CD7DB5B1DF172D700B875E9 /* Info.plist */,
+			);
+			path = MQVerCodeViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD7DB301DF172D700B875E9 /* MQVerCodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD7DB5E1DF172D700B875E9 /* Build configuration list for PBXNativeTarget "MQVerCodeView" */;
+			buildPhases = (
+				2CD7DB2D1DF172D700B875E9 /* Sources */,
+				2CD7DB2E1DF172D700B875E9 /* Frameworks */,
+				2CD7DB2F1DF172D700B875E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQVerCodeView;
+			productName = MQVerCodeView;
+			productReference = 2CD7DB311DF172D700B875E9 /* MQVerCodeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD7DB491DF172D700B875E9 /* MQVerCodeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD7DB611DF172D700B875E9 /* Build configuration list for PBXNativeTarget "MQVerCodeViewTests" */;
+			buildPhases = (
+				2CD7DB461DF172D700B875E9 /* Sources */,
+				2CD7DB471DF172D700B875E9 /* Frameworks */,
+				2CD7DB481DF172D700B875E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD7DB4C1DF172D700B875E9 /* PBXTargetDependency */,
+			);
+			name = MQVerCodeViewTests;
+			productName = MQVerCodeViewTests;
+			productReference = 2CD7DB4A1DF172D700B875E9 /* MQVerCodeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CD7DB541DF172D700B875E9 /* MQVerCodeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD7DB641DF172D700B875E9 /* Build configuration list for PBXNativeTarget "MQVerCodeViewUITests" */;
+			buildPhases = (
+				2CD7DB511DF172D700B875E9 /* Sources */,
+				2CD7DB521DF172D700B875E9 /* Frameworks */,
+				2CD7DB531DF172D700B875E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD7DB571DF172D700B875E9 /* PBXTargetDependency */,
+			);
+			name = MQVerCodeViewUITests;
+			productName = MQVerCodeViewUITests;
+			productReference = 2CD7DB551DF172D700B875E9 /* MQVerCodeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD7DB291DF172D700B875E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "林美齐";
+				TargetAttributes = {
+					2CD7DB301DF172D700B875E9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9V5ZNTW9JT;
+						ProvisioningStyle = Automatic;
+					};
+					2CD7DB491DF172D700B875E9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9V5ZNTW9JT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CD7DB301DF172D700B875E9;
+					};
+					2CD7DB541DF172D700B875E9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9V5ZNTW9JT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CD7DB301DF172D700B875E9;
+					};
+				};
+			};
+			buildConfigurationList = 2CD7DB2C1DF172D700B875E9 /* Build configuration list for PBXProject "MQVerCodeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD7DB281DF172D700B875E9;
+			productRefGroup = 2CD7DB321DF172D700B875E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD7DB301DF172D700B875E9 /* MQVerCodeView */,
+				2CD7DB491DF172D700B875E9 /* MQVerCodeViewTests */,
+				2CD7DB541DF172D700B875E9 /* MQVerCodeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD7DB2F1DF172D700B875E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7DB441DF172D700B875E9 /* LaunchScreen.storyboard in Resources */,
+				2CD7DB411DF172D700B875E9 /* Assets.xcassets in Resources */,
+				2CD7DB3F1DF172D700B875E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD7DB481DF172D700B875E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD7DB531DF172D700B875E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD7DB2D1DF172D700B875E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7DB3C1DF172D700B875E9 /* ViewController.m in Sources */,
+				2CD7DB391DF172D700B875E9 /* AppDelegate.m in Sources */,
+				2CD7DB6C1DF1730400B875E9 /* MQVerCodeImageView.m in Sources */,
+				2CD7DB361DF172D700B875E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD7DB461DF172D700B875E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7DB4F1DF172D700B875E9 /* MQVerCodeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD7DB511DF172D700B875E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7DB5A1DF172D700B875E9 /* MQVerCodeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD7DB4C1DF172D700B875E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD7DB301DF172D700B875E9 /* MQVerCodeView */;
+			targetProxy = 2CD7DB4B1DF172D700B875E9 /* PBXContainerItemProxy */;
+		};
+		2CD7DB571DF172D700B875E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD7DB301DF172D700B875E9 /* MQVerCodeView */;
+			targetProxy = 2CD7DB561DF172D700B875E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD7DB3D1DF172D700B875E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD7DB3E1DF172D700B875E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CD7DB421DF172D700B875E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD7DB431DF172D700B875E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD7DB5C1DF172D700B875E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CD7DB5D1DF172D700B875E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD7DB5F1DF172D700B875E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9V5ZNTW9JT;
+				INFOPLIST_FILE = MQVerCodeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meiqi.MQVerCodeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CD7DB601DF172D700B875E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9V5ZNTW9JT;
+				INFOPLIST_FILE = MQVerCodeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meiqi.MQVerCodeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CD7DB621DF172D700B875E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9V5ZNTW9JT;
+				INFOPLIST_FILE = MQVerCodeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meiqi.MQVerCodeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQVerCodeView.app/MQVerCodeView";
+			};
+			name = Debug;
+		};
+		2CD7DB631DF172D700B875E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9V5ZNTW9JT;
+				INFOPLIST_FILE = MQVerCodeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meiqi.MQVerCodeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQVerCodeView.app/MQVerCodeView";
+			};
+			name = Release;
+		};
+		2CD7DB651DF172D700B875E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9V5ZNTW9JT;
+				INFOPLIST_FILE = MQVerCodeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meiqi.MQVerCodeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MQVerCodeView;
+			};
+			name = Debug;
+		};
+		2CD7DB661DF172D700B875E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9V5ZNTW9JT;
+				INFOPLIST_FILE = MQVerCodeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = meiqi.MQVerCodeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MQVerCodeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD7DB2C1DF172D700B875E9 /* Build configuration list for PBXProject "MQVerCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD7DB5C1DF172D700B875E9 /* Debug */,
+				2CD7DB5D1DF172D700B875E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD7DB5E1DF172D700B875E9 /* Build configuration list for PBXNativeTarget "MQVerCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD7DB5F1DF172D700B875E9 /* Debug */,
+				2CD7DB601DF172D700B875E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD7DB611DF172D700B875E9 /* Build configuration list for PBXNativeTarget "MQVerCodeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD7DB621DF172D700B875E9 /* Debug */,
+				2CD7DB631DF172D700B875E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD7DB641DF172D700B875E9 /* Build configuration list for PBXNativeTarget "MQVerCodeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD7DB651DF172D700B875E9 /* Debug */,
+				2CD7DB661DF172D700B875E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD7DB291DF172D700B875E9 /* Project object */;
+}

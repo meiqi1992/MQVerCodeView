@@ -21,3 +21,5 @@ _codeImageView = [[MQVerCodeImageView alloc] initWithFrame:CGRectMake(100, 100, 
  [_codeImageView freshVerCode];
 ```
 3.效果图：
+
+ ![image](https://github.com/meiqi1992/MQVerCodeView/blob/master/verCodeView.gif)
